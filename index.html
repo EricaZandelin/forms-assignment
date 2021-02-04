@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="page">
+
+        <div class="card">
+            <form class="form" autocomplete="off">
+                <h1>Lionfly Secrets services</h1>
+                <label for="name" class="label">Your Name</label>
+                <input type="text" name="name" id="name" class="input-field" required autofocus> 
+                <label for="email" class="label">Email Adress</label> 
+                <input type="email" name="email" id="email" class="input-field" placeholder="Your email" required autofocus>
+                <h3>Type Of Service</h3>
+                <select name="options" class="select" id="select">
+                    <option value="Live-booking">Live booking</option>
+                    <option value="songwriting">Songwriting session</option>
+                    <option value="buy-song">Buy existing songs</option>
+                    <option value="mix">Mixing Service</option>
+                    <option value="master">Mastering Service</option>
+                </select>
+                <textarea name="message" id="" cols="40" rows="10" required minlength="50">
+                </textarea>
+                <button type="submit">Submit</button>
+
+            
+
+            <div class="checkbox-container"> 
+
+                <label class="checkbox-label">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                </label>
+            </div> 
+            <div class="input-title">Accepting terms & conditions</div>
+            </form>
+        </div>    
+    </section>         
+</body>
+</html>
