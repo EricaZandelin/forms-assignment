@@ -12,14 +12,16 @@
 
     <section class="page">
 
+        <!--Make the card sticky-->
         <div class="card">
-            <form class="form" autocomplete="off">
+            <form class="form__page" autocomplete="off">
+                <img class="mini__logo" src="images/logo.png">
                 <h1>Lionfly Secrets services</h1>
                 <label for="name" class="label">Your Name</label>
-                <input type="text" name="name" id="name" class="input-field" required autofocus> 
+                <input type="text" name="name" id="name" class="input-field" placeholder="Your name" required autofocus> 
                 <label for="email" class="label">Email Adress</label> 
                 <input type="email" name="email" id="email" class="input-field" placeholder="Your email" required autofocus>
-                <h3>Type Of Service</h3>
+                <h4>Type Of Service</h4>
                 <select name="options" class="select" id="select">
                     <option value="Live-booking">Live booking</option>
                     <option value="songwriting">Songwriting session</option>
@@ -29,7 +31,7 @@
                 </select>
                 <textarea name="message" id="" cols="40" rows="10" required minlength="50">
                 </textarea>
-                <button type="submit">Submit</button>
+            
 
             
 
@@ -41,8 +43,13 @@
                 </label>
             </div> 
             <div class="input-title">Accepting terms & conditions</div>
+            <button class="btn" type="submit">Submit</button>
+            <div class="box-back">
+                <img class="bottom__logo"src="images/lionfly-back.jpg" alt="lionfly" />
+            </div>
+            <footer>&copy; Copyright &nbsp;2021</footer>
             </form>
-        </div>    
+        </div>
     </section>         
 </body>
 </html>
